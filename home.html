@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon"  href="logo/1.png">
+    <title>Home | YJ_PHOTOGRAPHY®</title>
+
+    <style>
+        .hover-underline-animation {
+            display: inline-block;
+            position: relative;
+            color: #fff;
+          }
+          
+          .hover-underline-animation::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #fff;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+          }
+          
+          .hover-underline-animation:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
+        .homee{
+            border-bottom:2px solid rgb(255, 255, 255);
+        }
+        @media (max-width:453px){
+            
+            footer * , footer p ,.grd{
+                font-size: 15px;
+            }  
+        }
+    </style>
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row vvvv ddd">
+                <div class="logo">
+                    <a href="#"><img src="logo/2-removebg-preview.png" width="100px" alt=""></a>
+                </div>
+                <input type="checkbox" id="nav-check">
+                <label for="nav-check" class="nav-toggler">
+                    <span></span>
+                </label>
+                <nav class="nav">
+                    <ul>
+                        <li><a  href="#" class="homee">Home</a></li>
+                        <li><a class="hover-underline-animation"  href="porte.html">PorteFoilio</a></li>
+                        <li><a class="hover-underline-animation"  href="contactt.html">Contact / Feedback</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="grd">
+            <div class="card">
+                <img src="img/500.jpg" width="350px" alt="">
+                <h3>POGEA RACING HERCULES004</h3>
+                <div class="focus-content">
+                <a href="porte.html">Plus de Photos</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/r8.jpg" width="350px" alt="">
+                <h3>Audi R8 Spyder V10</h3>
+                <div class="focus-content">
+                <a href="porte.html">Plus de Photos</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/tts.jpg" width="350px" alt="">
+                    <h3>Audi TTRS Coupé in python</h3>
+                <div class="focus-content">
+                <a href="porte.html">Plus de Photos</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/rs3.jpg" width="350px" alt="">
+                <h3>Audi A3 Sportback TFSIe</h3>
+                <div class="focus-content">
+                <a href="porte.html">Plus de Photos</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/eq8.jpg" width="350px" alt="">
+                <h3>Audi Q4 e-tron Sportback geysirblau</h3>
+                <div class="focus-content">
+                <a href="porte.html">Plus de Photos</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/lee.jpg" width="350px" alt="">
+                <h3>VADER on LEON CUPRA SC</h3>
+                <div class="focus-content">
+                <a href="porte.html">Plus de Photos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="grd">
+        <a href="home.html"><ion-icon name="home-outline"></ion-icon></a>
+        <a href="porte.html"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+    </div> 
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com/gg__bjd/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.facebook.com/profile.php?id=100089627659018"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://api.whatsapp.com/qr/7M7VJKM4SI7YL1?autoload=1&app_absent=0"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="https://twitter.com/Jabri2004"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="porte.html">Portfolio</a></li>
+            <li><a href="kontakt.html">Contact</a></li> 
+        </ul>
+        <p class="copyright">©2023 YoussefJabri - YJ_PHOTOGRAPHY®</p>    
+    </footer>
+</body>
+</html>
